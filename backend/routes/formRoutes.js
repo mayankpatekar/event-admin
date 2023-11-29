@@ -29,13 +29,13 @@ const sendEmail = async (toEmail, subject, text, html,filename,Path) => {
   secureConnection: false, // Use false for STARTTLS
   requireTLS: true, // Require TLS
     auth: {
-      user: 'chmeventteam1@outlook.com', // Your Gmail email
-      pass: 'Chm2023@' // Your Gmail password
+      user: 'your email address here', // Your Gmail email
+      pass: 'password here' // Your Gmail password
     }
   });
 console.log(toEmail);
   const mailOptions = {
-    from: 'chmeventteam1@outlook.com',
+    from: 'same email address here',
     to: toEmail,
     subject,
     text : text,
