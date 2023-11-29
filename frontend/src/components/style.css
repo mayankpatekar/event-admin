@@ -1,0 +1,20 @@
+table{
+    width: 100%;
+}
+button{
+    cursor: pointer;
+}
+
+.accept-button{
+    background-color: #3fff3f;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.reject-button{
+    background-color: #ff2e2e;;
+    color: white;
+    border: none;
+    padding: 5px;
+}
